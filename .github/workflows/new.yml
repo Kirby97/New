@@ -31,11 +31,11 @@ jobs:
         #if: github.event_name == 'schedule'
         run: |
           # update gh-pages
-          rm -rf Test/
+          rm -rf New/
           git clone https://github.com/Kirby97/New
           cp -rf test.pac New/Test/.
           # push to gh-pages
-          cd Test/
+          cd New/
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add .
