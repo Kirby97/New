@@ -33,7 +33,7 @@ jobs:
           # update gh-pages
           rm -rf Test/
           git clone https://github.com/Kirby97/New
-          cp -rf test.pac Test/Test/.
+          cp -rf test.pac New/Test/.
           # push to gh-pages
           cd Test/
           git config user.name github-actions[bot]
