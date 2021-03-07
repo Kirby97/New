@@ -32,7 +32,7 @@ jobs:
         run: |
           # update gh-pages
           rm -rf Test/
-          git clone https://github.com/Kirby97/Test.git
+          git clone https://github.com/Kirby97/New
           cp -rf test.pac Test/Test/.
           # push to gh-pages
           cd Test/
